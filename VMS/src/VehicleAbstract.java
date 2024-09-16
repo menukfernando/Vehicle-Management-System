@@ -13,7 +13,7 @@ public abstract class VehicleAbstract implements Vehicle{
         return make;
     }
 
-    public String getmodel(){
+    public String getModel(){
         return model;
     }
 

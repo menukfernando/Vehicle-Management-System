@@ -1,4 +1,4 @@
 public interface Vehicle {
-    void StartEngine();
-    void StopEngine();
+    void startEngine();
+    void stopEngine();
 }
