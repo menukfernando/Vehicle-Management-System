@@ -48,10 +48,10 @@ public class VMS {
         vms.addVehicle(new MotorCycle("Kawasaki", "Ninja", 2020, 650));
         vms.addVehicle(new Truck("Chevrolet", "Silverado", 2018, 3.5));
 
-        System.out.println("Starting all vehicles:");
+        System.out.println("Start all vehicles:");
         vms.startAllVehicles();
         System.out.println("-------------------------------");
-        System.out.println("Stopping all vehicles:");
+        System.out.println("Stop all vehicles:");
         vms.stopAllVehicles();
 
         System.out.println("\nVehicle Information:");
