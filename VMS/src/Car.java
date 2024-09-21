@@ -12,12 +12,12 @@ private int numberOfDoors;
 
     @Override
     public void startEngine() {
-        System.out.println("Car engine started. Vroom! Vroom!");
+        System.out.println("Start car engine.");
     }
 
     @Override
     public void stopEngine() {
-        System.out.println("Car engine stopped.");
+        System.out.println("Stop car engine.");
     }
 
 }

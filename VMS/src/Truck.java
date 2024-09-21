@@ -12,11 +12,11 @@ public class Truck extends VehicleAbstract{
 
     @Override
     public void startEngine() {
-        System.out.println("Truck engine started.");
+        System.out.println("Start truck engine.");
     }
 
     @Override
     public void stopEngine() {
-        System.out.println("Truck engine stopped.");
+        System.out.println("Stop truck engine.");
     }
 }
