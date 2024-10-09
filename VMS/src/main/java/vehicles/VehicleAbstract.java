@@ -1,7 +1,9 @@
+package main.java.vehicles;
+
 public abstract class VehicleAbstract implements Vehicle{
-    private String make;
-    private String model;
-    private int year;
+    private final String make;
+    private final String model;
+    private final int year;
 
     public VehicleAbstract(String make, String model, int year){
         this.make = make;

@@ -1,5 +1,7 @@
+package main.java.vehicles;
+
 public class MotorCycle extends VehicleAbstract{
-    private int engineCapacity;
+    private final int engineCapacity;
 
     public MotorCycle(String make, String model, int year, int engineCapacity) {
         super(make, model, year);

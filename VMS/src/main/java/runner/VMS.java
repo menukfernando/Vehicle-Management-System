@@ -1,8 +1,14 @@
+package main.java.runner;
+
 import java.util.ArrayList;
 import java.util.List;
+import main.java.vehicles.Car;
+import main.java.vehicles.MotorCycle;
+import main.java.vehicles.Truck;
+import main.java.vehicles.Vehicle;
 
 public class VMS {
-    private List<Vehicle> vehicles;
+    private final List<Vehicle> vehicles;
 
     public VMS() {
         vehicles = new ArrayList<>();
@@ -56,12 +62,12 @@ public class VMS {
 
         System.out.println("\nVehicle Information:");
         for (Vehicle vehicle : vms.vehicles) {
-            if (vehicle instanceof Car) {
-                vms.displayCarInfo((Car) vehicle);
-            } else if (vehicle instanceof MotorCycle) {
-                vms.displayMotorCycleInfo((MotorCycle) vehicle);
-            } else if (vehicle instanceof Truck) {
-                vms.displayTruckInfo((Truck) vehicle);
+            if (vehicle instanceof Car car) {
+                vms.displayCarInfo(car);
+            } else if (vehicle instanceof MotorCycle motorCycle) {
+                vms.displayMotorCycleInfo(motorCycle);
+            } else if (vehicle instanceof Truck truck) {
+                vms.displayTruckInfo(truck);
             }
         }
     }
