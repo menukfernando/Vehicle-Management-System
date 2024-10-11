@@ -8,7 +8,7 @@ import main.java.vehicles.Truck;
 import main.java.vehicles.Vehicle;
 
 public class VMS {
-    private final List<Vehicle> vehicles;
+    private List<Vehicle> vehicles;
 
     public VMS() {
         vehicles = new ArrayList<>();

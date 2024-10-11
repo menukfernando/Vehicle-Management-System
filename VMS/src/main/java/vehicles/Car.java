@@ -1,7 +1,7 @@
 package main.java.vehicles;
 
-public class Car extends VehicleAbstract{
-    private final int numberOfDoors;
+public class Car extends VehicleAbstract {
+    private int numberOfDoors;
     
         public Car(String make, String model, int year, int numberOfDoors) {
             super(make, model, year);

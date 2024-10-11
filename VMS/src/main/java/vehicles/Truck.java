@@ -1,7 +1,7 @@
 package main.java.vehicles;
 
-public class Truck extends VehicleAbstract{
-    private final double payloadCapacity;
+public class Truck extends VehicleAbstract {
+    private double payloadCapacity;
 
     public Truck(String make, String model, int year, double payloadCapacity) {
         super(make, model, year);
