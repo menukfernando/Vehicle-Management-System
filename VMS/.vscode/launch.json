@@ -11,7 +11,7 @@
             "type": "java",
             "name": "VMS",
             "request": "launch",
-            "mainClass": "main.java.runner.VMS",
+            "mainClass": "main.java.runner.VehicleManagementSystem",
             "projectName": "VMS_f6286095"
         }
     ]

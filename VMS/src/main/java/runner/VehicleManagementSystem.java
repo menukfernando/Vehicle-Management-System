@@ -7,10 +7,10 @@ import main.java.vehicles.MotorCycle;
 import main.java.vehicles.Truck;
 import main.java.vehicles.Vehicle;
 
-public class VMS {
+public class VehicleManagementSystem {
     private List<Vehicle> vehicles;
 
-    public VMS() {
+    public VehicleManagementSystem() {
         vehicles = new ArrayList<>();
     }
 
@@ -48,7 +48,7 @@ public class VMS {
         System.out.println();
     }
     public static void main(String[] args) {
-        VMS vms = new VMS();
+        VehicleManagementSystem vms = new VehicleManagementSystem();
 
         vms.addVehicle(new Car("Nissan", "Altima", 2019, 2));
         vms.addVehicle(new MotorCycle("Kawasaki", "Ninja", 2020, 650));
